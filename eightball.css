@@ -1,0 +1,66 @@
+#outercircle {
+    height: 400px;
+    width: 400px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  #innercircle {
+    height: 170px;
+    width: 170px;
+    background-color: rgb(183, 182, 189);
+    border-radius: 50%;
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #triangle {
+	  width: 0;
+    height: 0;
+    position: relative;
+    border-left: 60px solid transparent;
+	  border-right: 60px solid transparent;
+    border-top: 130px solid rgb(78, 101, 235);
+    margin-top: 16px;
+}
+
+#ball-text {
+  font-size: 18px;
+  color: green;
+  font-weight: bold;
+  position: absolute;
+  margin: 0 auto;
+} 
+
+  .askMe {
+      padding-top: 30px;
+      text-align: center;
+  }
+
+  #theEight {
+    font-size: 160px;
+    position: absolute;
+    left: 300px;
+    top: 100px;
+    color: white;
+  }
+
+  #a-button {
+      cursor: grab;
+      font-size: 18px;
+  }
+
+  #a-button:hover{
+    background: green;
+}
+
+  #question {
+      width: 300px;
+      font-size: 18px;
+  }
