@@ -1,4 +1,4 @@
-const answers = ["The answer is NO", "Outlook is good", "Why not?", "Emphatically YES!", "The future is unwritten"];
+const answers = ["The answer is NO", "Ask your mother", "Outlook is good", "Why not?", "Emphatically YES!", "The future is unwritten", "How should I know?", "Ask your father"];
 console.log(answers);
 
 const myButton = document.querySelector("#a-button");

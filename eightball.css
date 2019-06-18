@@ -5,6 +5,7 @@
     border-radius: 50%;
     position: relative;
     margin: 0 auto;
+    margin-top: 40px;
   }
 
   #innercircle {
@@ -31,10 +32,14 @@
 }
 
 #ball-text {
-  font-size: 18px;
-  color: green;
+  font-size: 16px;
+  color: white;
   font-weight: bold;
   position: absolute;
+  left: -38px;
+    top: -124px;
+    display: flex;
+    text-align: center;
   margin: 0 auto;
 } 
 
@@ -54,6 +59,7 @@
   #a-button {
       cursor: grab;
       font-size: 18px;
+      background: #29AE6E;
   }
 
   #a-button:hover{
@@ -64,3 +70,13 @@
       width: 300px;
       font-size: 18px;
   }
+
+body {
+  height: 2000px;
+  background-color: #A533FF; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, #338DFF, #A533FF, #7733FF);
+}
+
+.footer {
+	text-align: center;
+}
