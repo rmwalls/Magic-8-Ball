@@ -1,0 +1,178 @@
+#outercircle {
+    height: 400px;
+    width: 400px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+
+  #innercircle {
+    height: 170px;
+    width: 170px;
+    background-color: rgb(183, 182, 189);
+    border-radius: 50%;
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #triangle {
+	  width: 0;
+	  height: 0;
+	  position: relative;
+	  border-left: 75px solid transparent;
+	  border-right: 75px solid transparent;
+	  border-top: 110px solid rgb(78, 101, 235);
+	  margin-top: 29px;
+}
+
+#ball-text {
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+  /* position: absolute; */
+  /* left: -38px; */
+  /* top: -124px; */
+  /* display: flex; */
+  text-align: center;
+  /* margin: 0 auto; */
+} 
+
+  .askMe {
+      padding-top: 30px;
+      text-align: center;
+  }
+
+  #theEight {
+    font-size: 160px;
+    position: absolute;
+    left: 300px;
+    top: 100px;
+    color: white;
+  }
+
+  #a-button {
+      cursor: grab;
+      font-size: 18px;
+      background: #29AE6E;
+  }
+
+  #a-button:hover{
+    background: green;
+}
+
+  #question {
+      width: 300px;
+      font-size: 18px;
+  }
+
+body {
+  height: 2000px;
+  background-color: #A533FF; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, #338DFF, #A533FF, #7733FF);
+}
+
+.footer {
+	text-align: center;
+}
+
+
+#ball-text {
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+  /* position: absolute; */
+  /* left: -38px; */
+  /* top: -124px; */
+  /* display: flex; */
+  text-align: center;
+  /* margin: 0 auto; */
+}
+
+#outercircle {
+    height: 400px;
+    width: 400px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+
+  #innercircle {
+    height: 170px;
+    width: 170px;
+    background-color: rgb(183, 182, 189);
+    border-radius: 50%;
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #triangle {
+	  width: 0;
+	  height: 0;
+	  position: relative;
+	  border-left: 75px solid transparent;
+	  border-right: 75px solid transparent;
+	  border-top: 110px solid rgb(78, 101, 235);
+	  margin-top: 29px;
+}
+
+#ball-text {
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+  /* position: absolute; */
+  /* left: -38px; */
+  /* top: -124px; */
+  /* display: flex; */
+  text-align: center;
+  /* margin: 0 auto; */
+} 
+
+  .askMe {
+      padding-top: 30px;
+      text-align: center;
+  }
+
+  #theEight {
+    font-size: 160px;
+    position: absolute;
+    left: 300px;
+    top: 100px;
+    color: white;
+  }
+
+  #a-button {
+      cursor: grab;
+      font-size: 18px;
+      background: #29AE6E;
+  }
+
+  #a-button:hover{
+    background: green;
+}
+
+  #question {
+      width: 300px;
+      font-size: 18px;
+  }
+
+body {
+  height: 2000px;
+  background-color: #A533FF; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, #338DFF, #A533FF, #7733FF);
+}
+
+.footer {
+	text-align: center;
+}

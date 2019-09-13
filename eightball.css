@@ -25,22 +25,22 @@
 	  width: 0;
     height: 0;
     position: relative;
-    border-left: 60px solid transparent;
-	  border-right: 60px solid transparent;
-    border-top: 130px solid rgb(78, 101, 235);
-    margin-top: 16px;
+    border-left: 75px solid transparent;
+	  border-right: 75px solid transparent;
+    border-top: 110px solid rgb(78, 101, 235);
+    margin-top: 29px;
 }
 
 #ball-text {
-  font-size: 16px;
+  font-size: 14px;
   color: white;
   font-weight: bold;
-  position: absolute;
+  /* position: absolute;
   left: -38px;
     top: -124px;
-    display: flex;
+    display: flex; */
     text-align: center;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 } 
 
   .askMe {
