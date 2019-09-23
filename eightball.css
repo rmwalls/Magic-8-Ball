@@ -7,7 +7,6 @@
     margin: 0 auto;
     margin-top: 40px;
   }
-
   #innercircle {
     height: 170px;
     width: 170px;
@@ -20,7 +19,6 @@
     justify-content: center;
     align-items: center;
   }
-
   #triangle {
 	  width: 0;
     height: 0;
@@ -30,24 +28,20 @@
     border-top: 110px solid rgb(78, 101, 235);
     margin-top: 29px;
 }
-
-#ball-text {
-  font-size: 14px;
-  color: white;
-  font-weight: bold;
-  /* position: absolute;
-  left: -38px;
-    top: -124px;
-    display: flex; */
-    text-align: center;
-  /* margin: 0 auto; */
-} 
-
+.flex-for-text {
+  width: 62px;
+  height: 70px;
+  position: relative;
+  top: -108px;
+  left: -30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
   .askMe {
       padding-top: 30px;
       text-align: center;
   }
-
   #theEight {
     font-size: 160px;
     position: absolute;
@@ -55,28 +49,23 @@
     top: 100px;
     color: white;
   }
-
   #a-button {
       cursor: grab;
       font-size: 18px;
       background: #29AE6E;
   }
-
   #a-button:hover{
     background: green;
 }
-
   #question {
       width: 300px;
       font-size: 18px;
   }
-
 body {
   height: 2000px;
   background-color: #A533FF; /* For browsers that do not support gradients */
   background-image: linear-gradient(to bottom right, #338DFF, #A533FF, #7733FF);
 }
-
 .footer {
 	text-align: center;
 }

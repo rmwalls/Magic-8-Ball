@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="eightball.css">
+    
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -15,37 +16,27 @@
 <body>
     <div id="outercircle">   
         <div id="theEight">8</div>
-        <div id="innercircle">
-            <div id="triangle">  
-                <div class="flex-for-text" style="
-                    width: 60px;
-                    height: 70px;
-                    position: relative;
-                    top: -108px;
-                    left: -30px;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    ">  
+            <div id="innercircle">
+                <div id="triangle">  
+                    <div class="flex-for-text">  
+                        <span id="ball-text">Hello</span>
+                    </div>
                 </div>
-                    <span id="ball-text">Hello</span>
             </div>
         </div>
     </div>
-    
     <div class="askMe">
         <form id="questionForm">
         <input id="question" type="text" placeholder="What do you want to know?"> 
         <button id="a-button" type="button">Ask the Eight Ball</button> 
         </form>
     </div>
-
 <!-- sticky footer code -->
 <br>
 	<footer class="footer mt-auto py-3">
-  	<div class="container">
-  		<span class="text-muted">Copywrite &copy; 2019  Aardvark Computer Consulting (RWalls)</span>
-  	</div>
+  	    <div class="container">
+  		    <span class="text-muted">Copywrite &copy; 2019  Aardvark Computer Consulting (RWalls)</span>
+  	    </div>
 	</footer>
     <script type="text/javascript" src="eightballgame.js"></script>
 </body>
